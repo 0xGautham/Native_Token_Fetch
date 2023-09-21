@@ -1,10 +1,10 @@
-#Fetching Native Tokens 
+# Fetching Native Tokens 
 
-#Coingecko 
+# Coingecko 
 
 CoinGecko API is a popular and comprehensive cryptocurrency data API that provides access to a wide range of information about cryptocurrencies, tokens, and blockchain assets. It is widely used by developers, traders, and cryptocurrency enthusiasts to retrieve real-time and historical data on various cryptocurrencies and tokens.
 
-#Key features and capabilities of the CoinGecko API include:
+# Key features and capabilities of the CoinGecko API include:
 
 1.Cryptocurrency Price Data: The API provides real-time and historical price data for thousands of cryptocurrencies and tokens. This data includes current prices, market capitalization, trading volume, and price changes over different time intervals.
 
@@ -18,12 +18,24 @@ CoinGecko API is a popular and comprehensive cryptocurrency data API that provid
 
 ![Coingecko](<public/coingecko.png>)
 
+# How often does data get updated or refreshed?
 
-#Coincap 
+The endpoints are all cached to around 1 to 5 minutes and we can expect most data to be updated at similar intervals unless otherwise specified. Pro API (paid plans) generally have faster update frequency, i.e. 30 sec for simple/price endpoint.
+
+
+# Pricing plans are listed below :
+
+![PricingPlan](public/PricingPlan.png)
+
+# Coincap 
 
 CoinCap is a cryptocurrency data platform and API that offers a range of services related to cryptocurrency market data. It provides real-time and historical data on a wide variety of cryptocurrencies and tokens, making it a valuable resource for traders, investors, developers, and researchers in the cryptocurrency space.
 
-#Key features and aspects of CoinCap include:
+Coincap API will offer insight into exactly which exchanges and markets contribute to our pricing.
+
+For all endpoints, a single page offers 100 responses by default and supports up to 2,000 responses per page upon requests.
+
+# Key features and aspects of CoinCap include:
 
 1.Cryptocurrency Market Data: CoinCap provides access to real-time data on cryptocurrency prices, trading volumes, market capitalizations, and price changes. Users can monitor the performance of individual cryptocurrencies and track market trends.
 
